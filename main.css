@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e1e1e1;
+}
+nav{
+    background-color: black;
+}
+nav .container{
+    padding: 20px 50px;
+}
+nav .nav-block{
+    display: flex;
+    justify-content: space-between;
+}
+nav .nav-block h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+}
+nav .nav-block ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
